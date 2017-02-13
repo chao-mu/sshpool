@@ -2,9 +2,11 @@ package sshpool_test
 
 import (
 	"bytes"
-	"code.google.com/p/go.crypto/ssh"
-	"github.com/kr/sshpool"
 	"os"
+
+	"github.com/chao-mu/sshpool"
+
+	"golang.org/x/crypto/ssh"
 )
 
 var config = &ssh.ClientConfig{

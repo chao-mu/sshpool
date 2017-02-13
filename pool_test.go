@@ -1,11 +1,12 @@
 package sshpool
 
 import (
-	"code.google.com/p/go.crypto/ssh"
 	"errors"
 	"net"
 	"testing"
 	"time"
+
+	"golang.org/x/crypto/ssh"
 )
 
 var (
